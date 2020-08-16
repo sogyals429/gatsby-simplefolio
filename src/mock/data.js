@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello my name is',
+  title: 'Hi my name is',
   name: 'Sogyal T Sherpa',
   subtitle: 'I am a DevOps Engineer',
   cta: '',
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'An aspiring DevOps Engineer with a passion to learn new technologies.',
-  paragraphTwo: 'Passionate about writing code. Participated in multiple hackathons and ',
+  paragraphTwo: 'Passionate about writing code and have participated in multiple hackathons ',
   paragraphThree: 'Feel free to contact me',
   resume: 'https://tinyurl.com/y3exxqcp', // if no resume, the button will not show up
 };
@@ -31,7 +31,8 @@ export const projectsData = [
     img: 'ansible.png',
     title: 'Ansible Web App',
     info: 'My first ansible project built on Microsoft Azure.',
-    info2: 'Deploys a complete flask web application with load balancer and a MySql database',
+    info2:
+      'Deploys a complete flask web application with load balancer(Nginx) and a MySql database',
     repo: 'https://github.com/sogyals429/ansible-web-app', // if no repo, the button will not show up
   },
   {
