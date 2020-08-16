@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a DevOps Engineer with ',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'An aspiring DevOps Engineer with a passion to learn new technologies.',
+  paragraphTwo: 'Passionate about writing code. Participated in multiple hackathons and ',
+  paragraphThree: 'Feel free to contact me',
   resume: 'https://tinyurl.com/y3exxqcp', // if no resume, the button will not show up
 };
 
@@ -67,7 +67,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: "Let's do this",
+  cta: "Let's get in touch",
   btn: 'Contact Me',
   email: 'sogyals429@gmail.com',
 };
