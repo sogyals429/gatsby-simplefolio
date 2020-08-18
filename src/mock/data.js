@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'An aspiring DevOps Engineer with a passion to learn new technologies.',
+  paragraphOne: 'I am an aspiring DevOps Engineer with a passion to learn new technologies.',
   paragraphTwo: 'Passionate about writing code and have participated in multiple hackathons.',
   paragraphThree: 'Feel free to contact me',
   resume: 'https://drive.google.com/file/d/1vfWqn0kAKUtAfws3T7VhxowCDp3AzWnZ/view?usp=sharing', // if no resume, the button will not show up
