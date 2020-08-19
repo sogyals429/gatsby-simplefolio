@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.sogyalsherpa.com/sitemap.xml
+Sitemap: https://www.sogyalsherpa.com/sitemap.xml
