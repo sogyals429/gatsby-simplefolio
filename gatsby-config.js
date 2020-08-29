@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://sogyalsherpa.com`,
-    siteurl: `https://sogyalsherpa.tech`,
     title: `Sogyal Sherpa Portfolio`,
     description: `Portfolio of Sogyal Sherpa`,
     author: `@sogyalsherpa`,
@@ -13,6 +12,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-client-side-redirect`,
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: [`/404`],
+      },
+      createLinkInHead: true,
+      addUncaughtPages: true,
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
