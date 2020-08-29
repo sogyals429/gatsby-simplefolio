@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://sogyalsherpa.com`,
+    title: `Sogyal Sherpa Portfolio`,
+    description: `Portfolio of Sogyal Sherpa`,
+    author: `@sogyalsherpa`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
