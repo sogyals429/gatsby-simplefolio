@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://sogyalsherpa.com`,
+    siteurl: `https://sogyalsherpa.tech`,
     title: `Sogyal Sherpa Portfolio`,
     description: `Portfolio of Sogyal Sherpa`,
     author: `@sogyalsherpa`,
