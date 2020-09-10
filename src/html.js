@@ -19,6 +19,19 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        {/* Google Meta Tags */}
+        <meta itemProp="name" content="Sogyal T Sherpa | DevOps Engineer" />
+        <meta
+          itemProp="description"
+          content="DevOps Engineer with a passion to learn new technologies"
+        />
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sogyal T Sherpa | DevOps Engineer" />
+        <meta
+          name="twitter:description"
+          content="DevOps Engineer with a passion to learn new technologies"
+        />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
