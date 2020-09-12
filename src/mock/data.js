@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Sogyal T Sherpa | DevOps Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  description: 'DevOps Engineer with a passion to learn new technologies.', // e.g: Welcome to my website
 };
 
 // HERO DATA

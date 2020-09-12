@@ -46,5 +46,11 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://sogyalsherpa.tech`,
+      },
+    },
   ],
 };
