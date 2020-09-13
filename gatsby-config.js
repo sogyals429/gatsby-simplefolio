@@ -12,20 +12,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-htaccess`,
-    {
-      resolve: 'gatsby-plugin-htaccess',
-      options: {
-        host: 'www.sogyalsherpa.com',
-      },
-      redirect: [
-        'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
-        {
-          from: 'sogyalsherpa.tech',
-          to: 'sogyalsherpa.com',
-        },
-      ],
-    },
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
@@ -58,12 +44,6 @@ module.exports = {
         theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-      options: {
-        siteUrl: `https://sogyalsherpa.tech`,
       },
     },
   ],
