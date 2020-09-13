@@ -12,6 +12,20 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-htaccess`,
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        host: 'www.sogyalsherpa.com',
+      },
+      redirect: [
+        'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
+        {
+          from: 'sogyalsherpa.tech',
+          to: 'sogyalsherpa.com',
+        },
+      ],
+    },
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
