@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "sogyalsherpa.tech"
+  to = "sogyalsherpa.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "www.sogyalsherpa.tech"
+  to = "sogyalsherpa.com"
+  status = 301
+  force = true
